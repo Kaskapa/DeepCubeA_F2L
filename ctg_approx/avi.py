@@ -1,4 +1,7 @@
-from utils import data_utils, nnet_utils, env_utils
+import sys
+sys.path.insert(0, 'c:\\Users\\krist\\Documents\\GitHub\\DeepCubeA_F2L')
+
+from utils import env_utils, nnet_utils, data_utils
 from typing import Dict, List, Tuple, Any
 
 from environments.environment_abstract import Environment

@@ -178,7 +178,7 @@ class NPuzzle(Environment):
                 for j in range(n):
                     z_idx = np.ravel_multi_index((i, j), (n, n))
 
-                    state = np.ones((n, n), dtype=np.int)
+                    state = np.ones((n, n), dtype=int)
                     state[i, j] = 0
 
                     is_eligible: bool = False
